@@ -98,8 +98,9 @@ position: center;}
             transform: rotate(0);
   }
 .card {
-    float: right; 
-clear: both;
+  float: right; 
+  grid-column-end: auto;
+  clear: both;
 }
 
 .ul  
@@ -129,7 +130,7 @@ clear: both;
     cursor: pointer;
     border-radius: 2px;
     transition: all .5s;
-    background: #212121;
+    background:black;
     border: 1px solid orange;
     display: flex;
     justify-content: center;
@@ -160,37 +161,16 @@ clear: both;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .ResumeCard {
-    width: 50%;
-    height: 50%;
+    width: 17em;
+    height: 22.5em;
     background: black;
-    -webkit-transition: 1s ease-in-out;
     transition: 1s ease-in-out;
-    -webkit-clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
-            clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   
   .ResumeCard span {
@@ -201,18 +181,18 @@ clear: both;
     font-size: 1em;
   }
   
-  .ResumesCard .info {
-    font-weight: 400;
+  .ResumeCard .info {
+    font-weight: 500;
     color: white;
     display: block;
     text-align: center;
-    font-size: 0.72em;
+    font-size: 0.9em;
     margin: 1em;
   }
   
   .ResumeCard .img {
-    width: 4.8em;
-    height: 4.8em;
+    width: 95;
+    height: 95;
     background: white;
     border-radius: 15px;
     margin: auto;
@@ -220,23 +200,18 @@ clear: both;
   
   .ResumeCard .share {
     margin-top: 1em;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     gap: 1em;
   }
   
   .ResumeCard a {
     color: white;
-    -webkit-transition: .4s ease-in-out;
     transition: .4s ease-in-out;
   }
   
   .ResumeCard a:hover {
-    color:orange;
+    color: orange;
   }
   
   .ResumeCard button {
@@ -248,40 +223,11 @@ clear: both;
     font-weight: bold;
     background: #ffffff;
     color: rgb(0, 0, 0);
-    -webkit-transition: .4s ease-in-out;
     transition: .4s ease-in-out;
   }
   
   .ResumeCard button:hover {
-    background:orange;
+    background: orange;
     color: white;
     cursor: pointer;
   }
-
-    
-    .twitch-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 20px;
-  background-color: #6441a5;
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-}
-
-.twitch-button svg {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  fill: #fff;
-}
-    
-  
-  
-  
-
-
-

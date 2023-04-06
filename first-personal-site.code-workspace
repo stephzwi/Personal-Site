@@ -10,5 +10,7 @@
 			"path": "../coursework/Vault code.html"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "first-personal-site"
+	}
 }
