@@ -98,12 +98,12 @@ position: center;}
             transform: rotate(0);
   }
 .card {
-  float: right; 
+  float:auto; 
   grid-column-end: auto;
   clear: both;
 }
 
-.ul  
+.ul {} 
 .li {float: center;
     clear: both;}    
 
@@ -171,6 +171,7 @@ position: center;}
     border-bottom-left-radius: 20px;
     display: flex;
     flex-direction: column;
+    margin: 2%;
   }
   
   .ResumeCard span {
@@ -229,5 +230,4 @@ position: center;}
   .ResumeCard button:hover {
     background: orange;
     color: white;
-    cursor: pointer;
-  }
+    cursor: pointer;}
